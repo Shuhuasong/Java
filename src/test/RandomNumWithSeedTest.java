@@ -33,7 +33,7 @@ protected synchronized int next(int bits) {
     return (int) (seed >>> (48 - bits));
 }
 */
-public class RandomNumTest {
+public class RandomNumWithSeedTest {
 
     public static void main(String[] args) {
         System.out.print("Random Without parameter: ");
