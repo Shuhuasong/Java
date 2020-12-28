@@ -19,8 +19,8 @@ public class KeyEvent {
                 new KeyAdapter() {
                     @Override
                     public void keyPressed(java.awt.event.KeyEvent e) {
-                       int keyCode = e.getKeyCode();
-                       String s = java.awt.event.KeyEvent.getKeyText(keyCode);
+                        int keyCode = e.getKeyCode();
+                        String s = java.awt.event.KeyEvent.getKeyText(keyCode);
                         System.out.println("The input content is: " + s + ", ");
                         System.out.println("The correspond keyCode is: " + keyCode);
                     }

@@ -30,6 +30,16 @@ public class WindowEvent_Ex3 {
                     }
 
                     @Override
+                    public void windowIconified(WindowEvent e) {
+                        System.out.println("Window Iconified");
+                    }
+
+                    @Override
+                    public void windowDeiconified(WindowEvent e) {
+                        System.out.println("Deiconified");
+                    }
+
+                    @Override
                     public void windowActivated(WindowEvent e) {
                         System.out.println("Window Activated");
                     }
