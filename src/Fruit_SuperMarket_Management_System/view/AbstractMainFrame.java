@@ -15,7 +15,7 @@ public abstract  class AbstractMainFrame extends JFrame {
     }
 
 
-    private JLabel titleLabel = new JLabel("fruitstore.jpg");
+    private JLabel titleLabel = new JLabel(new ImageIcon("fruitstore.jpg"));
     private JButton btn = new JButton("Get Into System");
 
     private void init(){
