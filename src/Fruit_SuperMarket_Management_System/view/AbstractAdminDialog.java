@@ -53,7 +53,7 @@ public abstract class AbstractAdminDialog extends JDialog {
     //Add Component
     private void addComponent(){
         this.setLayout(null);
-        tableLabel.setBounds(270, 20, 70, 25);
+        tableLabel.setBounds(265, 20, 70, 25);
         this.add(tableLabel);
 
         //Form
@@ -75,7 +75,7 @@ public abstract class AbstractAdminDialog extends JDialog {
         this.add(unitLabel);
 
         //Adding Component
-        addNameText.setBounds(50, 280, 80, 25);
+        addNumberText.setBounds(50, 280, 80, 25);
         addNameText.setBounds(150, 280, 80, 25);
         addPriceText.setBounds(250, 280, 80, 25);
         addUnitText.setBounds(350, 280, 80, 25);
@@ -87,16 +87,16 @@ public abstract class AbstractAdminDialog extends JDialog {
         this.add(addBtn);
 
         //Update Component
-        updateNumberText.setBounds(50, 280, 80, 25);
-        updateNameText.setBounds(150, 280, 80, 25);
-        updatePriceText.setBounds(250, 280, 80, 25);
-        updateUnitText.setBounds(350, 280, 80, 25);
+        updateNumberText.setBounds(50, 310, 80, 25);
+        updateNameText.setBounds(150, 310, 80, 25);
+        updatePriceText.setBounds(250, 310, 80, 25);
+        updateUnitText.setBounds(350, 310, 80, 25);
         this.add(updateNumberText);
         this.add(updateNameText);
         this.add(updatePriceText);
         this.add(updateUnitText);
-        addBtn.setBounds(460, 280, 90, 25);
-        this.add(addBtn);
+        updateBtn.setBounds(460, 280, 90, 25);
+        this.add(updateBtn);
 
         //Delete Component
         delNumberText.setBounds(50, 340, 80, 25);

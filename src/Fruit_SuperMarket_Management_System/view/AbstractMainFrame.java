@@ -15,7 +15,7 @@ public abstract  class AbstractMainFrame extends JFrame {
     }
 
 
-    private JLabel titleLabel = new JLabel(new ImageIcon("fruitstore.jpg"));
+    private JLabel titleLabel = new JLabel(new ImageIcon("./fruitstore.jpg"));
     private JButton btn = new JButton("Get Into System");
 
     private void init(){
@@ -32,6 +32,7 @@ public abstract  class AbstractMainFrame extends JFrame {
         this.add(btnPanel, BorderLayout.CENTER);
         btnPanel.setLayout(null);
         btn.setBounds(200, 20, 200, 50);
+        btnPanel.add(btn);
     }
 
     private void addListener(){
