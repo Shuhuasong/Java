@@ -11,10 +11,10 @@ public abstract class AbstractAdminDialog extends JDialog {
    private JLabel tableLabel = new JLabel("Fruit List");
    private JScrollPane tablePanel = new JScrollPane();
    protected JTable table = new JTable();
-   private JLabel numberLabel = new JLabel("Fruit ID");
-   private JLabel nameLabel = new JLabel("Fruit Name");
-   private JLabel priceLabel = new JLabel("Fruit Price");
-   private JLabel unitLabel = new JLabel("Unit");
+    private JLabel numberLabel=new JLabel("水果编号");
+    private JLabel nameLabel=new JLabel("水果名称");
+    private JLabel priceLabel=new JLabel("水果单价");
+    private JLabel unitLabel=new JLabel("计价单位");
 
    //Add Operation Component
     protected JTextField addNumberText = new JTextField(6);
@@ -62,7 +62,7 @@ public abstract class AbstractAdminDialog extends JDialog {
         table.setEnabled(false);
         tablePanel.setBounds(50, 50, 500, 200);
         tablePanel.setViewportView(table);
-        this.add(tableLabel);
+        this.add(tablePanel);
 
         //Title
         numberLabel.setBounds(50, 250, 70, 25);
@@ -95,7 +95,7 @@ public abstract class AbstractAdminDialog extends JDialog {
         this.add(updateNameText);
         this.add(updatePriceText);
         this.add(updateUnitText);
-        updateBtn.setBounds(460, 280, 90, 25);
+        updateBtn.setBounds(460, 310, 90, 25);
         this.add(updateBtn);
 
         //Delete Component

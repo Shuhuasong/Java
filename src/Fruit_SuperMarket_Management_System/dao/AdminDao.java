@@ -8,10 +8,12 @@ import java.util.ArrayList;
 public class AdminDao {
 
     public ArrayList<FruitItem> queryAllData(){
+
         return DataBase.data;
     }
 
     public void addFruitItem(FruitItem fruitItem){
+
         DataBase.data.add(fruitItem);
     }
 

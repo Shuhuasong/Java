@@ -28,7 +28,6 @@ public abstract  class AbstractMainFrame extends JFrame {
     private void addComponent(){
         this.add(this.titleLabel, BorderLayout.NORTH);
         JPanel btnPanel = new JPanel();
-        btnPanel.add(btn);
         this.add(btnPanel, BorderLayout.CENTER);
         btnPanel.setLayout(null);
         btn.setBounds(200, 20, 200, 50);
